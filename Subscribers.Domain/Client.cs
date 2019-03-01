@@ -1,13 +1,17 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Subscribers.Domain
 {
     public class Client
     {
-        Guid ClientId { get; set; }
+        public Guid ClientId { get; set; }
 
-        string Name { get; set; }
+        public string Name { get; set; }
 
-        DateTime BirthDate { get; set; }
+        public DateTime BirthDate { get; set; }
+
+
+        public ICollection<Service> Services { get; set; }
     }
 }
