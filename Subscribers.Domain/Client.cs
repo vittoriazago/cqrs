@@ -5,6 +5,11 @@ namespace Subscribers.Domain
 {
     public class Client
     {
+        public Client()
+        {
+            Services = new HashSet<Subscriber>();
+        }
+
         public Guid ClientId { get; set; }
 
         public string Name { get; set; }
@@ -12,6 +17,6 @@ namespace Subscribers.Domain
         public DateTime BirthDate { get; set; }
 
 
-        public ICollection<Service> Services { get; set; }
+        public ICollection<Subscriber> Services { get; private set; }
     }
 }
