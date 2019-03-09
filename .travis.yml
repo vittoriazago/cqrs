@@ -1,2 +1,9 @@
 language: csharp
 solution: "./Subscribers.sln"
+mono: none
+sudo: required
+dist: xenial
+dotnet: 2.2
+global:
+    - DOTNET_SKIP_FIRST_TIME_EXPERIENCE=true
+    - DOTNET_CLI_TELEMETRY_OPTOUT=1
