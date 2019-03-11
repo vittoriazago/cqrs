@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Subscribers.Domain;
+using Subscribers.Domain.Entities;
 using System;
 
 namespace Subscribers.Persistence

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Subscribers.Domain
+namespace Subscribers.Domain.Entities
 {
     public class Subscriber
     {

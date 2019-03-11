@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Subscribers.Domain
+namespace Subscribers.Domain.Entities
 {
     public class Service
     {
