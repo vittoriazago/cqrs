@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Subscribers.Domain;
+using Subscribers.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Text;
