@@ -29,6 +29,7 @@ namespace Subscribers.Application.Clients.Commands
             {
                 _context = context;
                 _mediator = mediator;
+                _notificationService = notificationService;
             }
 
             public async Task<Unit> Handle(CreateClientCommand request, CancellationToken cancellationToken)

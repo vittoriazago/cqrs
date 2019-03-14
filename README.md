@@ -1,4 +1,4 @@
-# CQRS Implementation [![Build Status](https://travis-ci.org/vittoriazago/cqrs.svg?branch=master)](https://travis-ci.org/vittoriazago/cqrs)
+# Subscribers - CQRS Implementation [![Build Status](https://travis-ci.org/vittoriazago/cqrs.svg?branch=master)](https://travis-ci.org/vittoriazago/cqrs)
 
 This project aims to study [Command Query Responsibility Segregation](https://martinfowler.com/bliki/CQRS.html) patterns and its implementation.
 
