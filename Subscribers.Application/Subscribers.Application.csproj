@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Clients\Queries\" />
     <Folder Include="Subscribers\" />
     <Folder Include="Services\" />
   </ItemGroup>
